@@ -1,0 +1,884 @@
+[
+      {
+         "name":"Semi-automatic Handgun",
+         "type":"WEAPON",
+         "quote":"\"Pew pew, pew pew.\" - A Gun",
+         "description":"A garden variety, regular ol' service pistol. Capable of burst fire.",
+         "list":[
+            {
+               "li":"Range: 100 yards"
+            },
+            {
+               "li":"Magazine: 12 shots, reload 2/4 (REF)"
+            },
+            {
+               "li":"Burst fire: Reduce range to 50 yards. Add 2 burst die to roll. Use three ammo."
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"D"
+            },
+            {
+               "h":"BD"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":3
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":3
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":4
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":5
+                  },
+                  {
+                     "o":4
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Assault Rifle",
+         "type":"WEAPON",
+         "quote":"\"This is my rifle; this is my gun.\" - A Proud Rifle Owner",
+         "description":"A rifle fit for any assault. Capable of burst/auto fire.",
+         "list":[
+            {
+               "li":"Range: 200 yards"
+            },
+            {
+               "li":"Magazine: 30 shots, reload 2/4 (REF)"
+            },
+            {
+               "li":"Burst fire: Reduce range to 50 yards. Add 2 burst fire die to roll. Use 3 ammo."
+            },
+            {
+               "li":"Auto fire: Reduce range to 50 yards. Add 7 autofire die to roll. Use 15 ammo."
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"D"
+            },
+            {
+               "h":"BD"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":3
+                  },
+                  {
+                     "o":2
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":5
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":7
+                  },
+                  {
+                     "o":4
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":9
+                  },
+                  {
+                     "o":6
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Pump-action Shotgun",
+         "type":"WEAPON",
+         "quote":"\"Pump up the jam.\" - Technotronic",
+         "description":"Shoots buckshots and pumps.",
+         "list":[
+            {
+               "li":"Range: 50 yards"
+            },
+            {
+               "li":"Chamber: 8 shots"
+            },
+            {
+               "li":"Slow Reload: Reload 2/1 (REF) shots per round"
+            },
+            {
+               "li":"Spread Shot: Add spread shot die on high damage rolls."
+            }
+         ],
+         "":{
+
+         },
+         "rollHeader":[
+            {
+               "h":"DH"
+            },
+            {
+               "h":"SS"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":2
+                  },
+                  {
+                     "o":1
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":"3+1SS"
+                  },
+                  {
+                     "o":1
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":"4+1SS"
+                  },
+                  {
+                     "o":2
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":"6+2SS"
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Rocket Launcher",
+         "type":"WEAPON",
+         "quote":"\"Rawket lawnchair\" - Metal Slug",
+         "description":"Generic rocket launcher.",
+         "list":[
+            {
+               "li":"Range: 200 yards"
+            },
+            {
+               "li":"1 shot,  3/6 (REF) reload"
+            },
+            {
+               "li":"Splash Damage: Roll SD damage for other targets in radius. Roll at disadvantage if adjacent to target."
+            },
+            {
+               "li":"Explosion radius: 15 yards"
+            },
+            {
+               "li":"Only score direct hit on non-vehicles with critical hit"
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"DH"
+            },
+            {
+               "h":"SD"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":8
+                  },
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":10
+                  },
+                  {
+                     "o":4
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":12
+                  },
+                  {
+                     "o":5
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":13
+                  },
+                  {
+                     "o":6
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Magnum Revolver",
+         "type":"WEAPON",
+         "quote":"\"I love to reload during a battle.\" <br/>- REVOLVER OCELOT",
+         "description":"Classic style and stopping power combined. From the popular party game.",
+         "list":[
+            {
+               "li":"Range: 100 yards"
+            },
+            {
+               "li":"Chamber: 6 shots"
+            },
+            {
+               "li":"Slow Reload: Reload 2/1 (REF) shots per round of reload"
+            },
+            {
+               "li":"Never jam on critical miss."
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"D"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":3
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":4
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":6
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":8
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Hand-to-hand",
+         "type":"WEAPON",
+         "quote":"\"These hands are registered as lethal weapons.\" - Johnny Bravo",
+         "description":"Punching. Perhaps kicking?",
+         "list":[
+            {
+               "li":"Half damage VS blocking targets"
+            },
+            {
+               "li":"Stun on critical hit"
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"D"
+            }
+         ],
+         "rolls":[
+            {
+               "no":5,
+               "outcome":[
+                  {
+                     "o":2
+                  }
+               ]
+            },
+            {
+               "no":4,
+               "outcome":[
+                  {
+                     "o":"2 + TOUGH"
+                  }
+               ]
+            },
+            {
+               "no":3,
+               "outcome":[
+                  {
+                     "o":"3 + TOUGH"
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":"3 + 2xTOUGH"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Spread Shot",
+         "type":"BASIC SKILL",
+         "description":"Some weapons spray out like a dog marking its territory if the pee was lead and the territory was your face.",
+         "rollHeader":[
+            {
+               "h":"Outcome"
+            }
+         ],
+         "list":[
+            {
+               "li":"Roll each spread shot die on this table. Use the \"SS\" column for damage."
+            }
+         ],
+         "rolls":[
+            {
+               "no":"6,4",
+               "outcome":[
+                  {
+                     "o":"Same target, use this roll as damage"
+                  }
+               ]
+            },
+            {
+               "no":"3,2",
+               "outcome":[
+                  {
+                     "o":"Another random target, reroll damage"
+                  }
+               ]
+            },
+            {
+               "no":"6,1",
+               "outcome":[
+                  {
+                     "o":"Miss"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Burst Fire",
+         "type":"ADVANCED SKILL [2]",
+         "description":"Short, controlled bursts allow higher damage potential.",
+         "quote":"\"Ratatata\"",
+         "list":[
+            {
+               "li":"Roll each burst fire die on this table. Use the \"B\" column for damage."
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"Outcome"
+            }
+         ],
+         "rolls":[
+            {
+               "no":"5,4,3",
+               "outcome":[
+                  {
+                     "o":"Same target, reroll damage"
+                  }
+               ]
+            },
+            {
+               "no":2,
+               "outcome":[
+                  {
+                     "o":"Another target, reroll damage"
+                  }
+               ]
+            },
+            {
+               "no":"6,1",
+               "outcome":[
+                  {
+                     "o":"Miss"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Auto Fire",
+         "type":"ADVANCED SKILL [2]",
+         "description":"Long, uncontrolled bursts allow higher coolness potential.",
+         "quote":"\"Pchew-pchew-pchew-pchew-pchew-pchew etc.\"",
+         "list":[
+            {
+               "li":"Roll each auto fire die on this table. Use the \"B\" column for damage."
+            }
+         ],
+         "rollHeader":[
+            {
+               "h":"Outcome"
+            }
+         ],
+         "rolls":[
+            {
+               "no":"5,4",
+               "outcome":[
+                  {
+                     "o":"Same target, reroll damage"
+                  }
+               ]
+            },
+            {
+               "no":"3,2",
+               "outcome":[
+                  {
+                     "o":"Another target, reroll damage"
+                  }
+               ]
+            },
+            {
+               "no":"6,1",
+               "outcome":[
+                  {
+                     "o":"Miss"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Rush",
+         "type":"BASIC SKILL",
+         "description":"At any time you can attempt to take your next action early.",
+         "quote":"\"Gotta go fast!\"",
+         "list":[
+            {
+               "li":"Make a REFLEX check"
+            },
+            {
+               "li":"On success, take next turn immediately."
+            },
+            {
+               "li":"On fail, critically fail you were trying to do rush and lose next action."
+            }
+         ]
+      },
+      {
+         "name":"Strike",
+         "type":"MELEE ACTION",
+         "description":"Just straight up hit your target with your fists or weapon.",
+         "quote":"\"It's time to strike!\" - Styker Strikefield of the 1st Strike Squad",
+         "list":[
+            {
+               "li":"Make a TOUGH check VS enemy melee action."
+            },
+            {
+               "li":"Some weapons permit you to take a REFLEX check instead."
+            }
+         ]
+      },
+      {
+         "name":"Overpower",
+         "type":"MELEE ACTION",
+         "description":"A risky move to assert your strength to slam, push, or disarm.",
+         "list":[
+            {
+               "li":"Make a TOUGH check VS enemy melee action. Take advantage if you have a higher TOUGH that target, take disadvantage with lower TOUGH."
+            },
+            {
+               "li":"On success, choose:"
+            },
+            {
+               "li":"Push: Push target 1 hex + remaining momentum."
+            },
+            {
+               "li":"Knockdown: Target must make REFLEX check to not fall down. Must take disadvantage if attacker has 2+ hexes of momentum"
+            },
+            {
+               "li":"Disarm: As knockdown, but target drops their blocking weapon instead."
+            }
+         ]
+      },
+      {
+         "name":"Evade",
+         "type":"MELEE ACTION",
+         "description":"Tactical stepping to the side. Strong against overpower.",
+         "quote":"\"lol missed me fuccboi\"",
+         "list":[
+            {
+               "li":"Make a REFLEX check VS enemy melee action."
+            },
+            {
+               "li":"On success, if enemy used..."
+            },
+            {
+               "li":"...strike, put their roll at a disadvantage."
+            },
+            {
+               "li":"...overpower, automatically succeed."
+            }
+         ]
+      },
+      {
+         "name":"Block",
+         "type":"MELEE ACTION",
+         "description":"Stop an attack with your hands, shield, or weapon",
+         "quote":"\"Staaahp\"",
+         "list":[
+            {
+               "li":"Make a TOUGH check VS enemy melee action. You may use REFLEX with a weapon or shield."
+            },
+            {
+               "li":"On success, apply block effect from the particular item."
+            },
+            {
+               "li":"Hand to hand blocking caps the damage at die [4], but applies the damage to the arms as in a called shot."
+            }
+         ]
+      },
+      {
+         "name":"SPRINT",
+         "type":"MOVEMENT ACTION",
+         "description":"Gain momentum on foot for quick running and sweet dropkicks.",
+         "quote":"\"Radical Good Speed!!!\" - Straight Cougar",
+         "list":[
+            {
+               "li":"Move normally but add a momentum token up to 2 hexes ahead of your movement. Start your next movement from that point, but preserve the relative locations of the token and yourself."
+            },
+            {
+               "li":"Gain up to 4 hexes of momentum."
+            }
+         ]
+      },
+      {
+         "name":"Judo",
+         "type":"ADVANCED MELEE ACTION [3]",
+         "description":"On successful hand-to-hand block, you can try to knockdown attacker.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Make a REFLEX check, on..."
+            },
+            {
+               "li":"...UQ success, knock down target."
+            },
+            {
+               "li":"...= success, block normally."
+            },
+            {
+               "li":"... fail, get hit by attack."
+            },
+            {
+               "li":"Take advantage if damage would be more than 5."
+            }
+         ]
+      },
+      {
+         "name":"Trip",
+         "type":"ADVANCED MELEE ACTION [3]",
+         "description":"Knock em on their ass. Offensive and defensive!",
+         "quote":"\"Have a nice TRIP, see you next FALL.\"",
+         "list":[
+            {
+               "li":"VS Overpower/Block: Roll REFLEX, on success, knock down target."
+            },
+            {
+               "li":"VS everything else: act as Evade."
+            },
+            {
+               "li":"Grapple the weapon, allowing you to strike the enemy without giving them a chance to roll a defense."
+            },
+            {
+               "li":"On fail, get hit by attack."
+            }
+         ]
+      },
+      {
+         "name":"Parry",
+         "type":"ADVANCED MELEE ACTION [3]",
+         "description":"Grab the attack with your bloody hands!! (hands may become bloody)",
+         "quote":"\"You gonna catch these hands\"",
+         "list":[
+            {
+               "li":"Make a REFLEX check, on success, choose:"
+            },
+            {
+               "li":"Disarm (Target gets REFLEX save)"
+            },
+            {
+               "li":"Grapple the weapon, allowing you to strike the enemy without giving them a chance to roll a defense."
+            },
+            {
+               "li":"On fail, get hit by attack."
+            }
+         ]
+      },
+      {
+         "name":"Called Shot",
+         "type":"COMBAT ACTION [2]",
+         "description":"Augment an attack to target the head, arms, or legs.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Roll attack assuming the target has one more AC from SIZE."
+            },
+            {
+               "li":"If targeting head, head double damage on hit, ignore non-helmet armor."
+            },
+            {
+               "li":"If targeting arms/legs, target must make a TOUGH check to avoid crippling a limb every damage increment equal to 1/4 of your total HP. Each time a limb gets re-crippled, severity increases by one."
+            },
+            {
+               "li":"Legs: (1) Half speed and no Sprint, automatically heals in 2 rounds, (2) no longer auto heals, (3) can only crawl."
+            },
+            {
+               "li":"Arms: (1) Disadvantage when using arm, automatically heals in 2 rounds, (2) no longer auto heals, (3) cannot use arm for shit."
+            }
+         ]
+      },
+      {
+         "name":"Prone / Stand",
+         "type":"MOVEMENT/COMBAT ACTION",
+         "description":"Hit the deck or stand on deck. As long as it involves decks.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Going prone is free during the movement phase if you have any movement left but can't fail."
+            },
+            {
+               "li":"Standing up can be interrupted by a rush action (which takes an advantage on its roll)"
+            },
+            {
+               "li":"If interrupted and damaged, TOUGH check to not fall back down. Take disadvantage if you take more than 5 damage."
+            }
+         ]
+      },
+      {
+         "name":"Action Stand",
+         "type":"ADVANCED MOVEMENT/COMBAT ACTION [3]",
+         "description":"Stand up kung fu style to avoid getting smacked.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Make a REFLEX check, on success your standing up cannot be interrupted by a RUSH action."
+            }
+         ]
+      },
+      {
+         "name":"Sneak",
+         "type":"ADVANCED MOVEMENT ACTION [2]",
+         "description":"Sneak like a sneaky snake.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Use either your REFLEX or WITS check to avoid detection. Use your better stat."
+            },
+            {
+               "li":"Take advantage when concealed. Take 2x advantages when nigh invisible. Take disadvantage when barely concealed."
+            },
+            {
+               "li":"When in INFLILTRATION, move your REFLEX/WITS grade in blocks for every success that isn't a critical success. Remove your REFLEX/WITS grade in blocks for every failure."
+            }
+         ]
+      },
+      {
+         "name":"Mech Run",
+         "type":"STUNT [2]",
+         "description":"Run in a mech, this is dangerous tho.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Roll a GUTS check, on a success, SPRINT as if you were a dude"
+            },
+            {
+               "li":"On a 1, fall over (pilot takes D6-1 damage)"
+            },
+            {
+               "li":"On non-1 failure, wuss out and run normally."
+            }
+         ]
+      },
+      {
+         "name":"Low Altitude Flight",
+         "type":"STUNT [2]",
+         "description":"Fly real low and buzz fools.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Roll a GUTS check, on a success, gain advantage vs ground to air attacks until next turn. Knock down all infantry in space."
+            },
+            {
+               "li":"On a 1, crash (pilot dies if they don't eject)"
+            },
+            {
+               "li":"On non-1 failure, wuss out and fly normally."
+            },
+            {
+               "li":"Take advantage over flat terrain."
+            }
+         ]
+      },
+      {
+         "name":"U-Turn",
+         "type":"STUNT [2]",
+         "description":"Turn around fast on the air or ground.",
+         "quote":"\"Try a U-Turn\" - Peppy",
+         "list":[
+            {
+               "li":"Roll a GUTS check, on a success, turn around and gain minumum momentum in the opposite direction."
+            },
+            {
+               "li":"On a 1, if in the air take Gs (pilot takes 2d6 damage that halves every following turn), if on the ground fall over"
+            },
+            {
+               "li":"On non-1 failure, wuss out and move normally."
+            }
+         ]
+      },
+      {
+         "name":"Air Dodge",
+         "type":"STUNT [2]",
+         "description":"Avoid slower moving projectiles such as bullets, missiles, and rockets.",
+         "quote":"\"Do a barrel roll.\" - Peppy",
+         "list":[
+            {
+               "li":"Roll a GUTS check, on a success, Make a REFLEX check to avoid all damage."
+            },
+            {
+               "li":"On a 1, crash (pilot dies if they don't eject)"
+            },
+            {
+               "li":"On non-1 failure, don't dodge."
+            },
+            {
+               "li":"Take 1 more disadvantage for every air dodge that same turn."
+            }
+         ]
+      },
+      {
+         "name":"Ranged Defense",
+         "type":"RULES",
+         "description":"When you shoot at a guy, your roll is either your REFLEX or their \"ranged AC,\" whichever is harder.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Ranged AC is base 2"
+            },
+            {
+               "li":"+ 1 or 2 SIZE AC ( 1= prone across the room, 2 = bullseye on a target range)"
+            },
+            {
+               "li":"+ 1 MOVEMENT AC if the target has momentum parallel to shooter."
+            },
+            {
+               "li":"+ X possible AC from items or whatever"
+            }
+         ]
+      },
+      {
+         "name":"Turn order",
+         "type":"RULES",
+         "description":"Each round has three phases. Usually, the players all go first, then neutrals, then the enemies.",
+         "quote":"",
+         "list":[
+            {
+               "li":"Movement phase: Everyone moves up to their speeds or use special movement actions."
+            },
+            {
+               "li":"Melee phase: Everyone may move up to one hex (not infantry at large scale) and/or use a melee action."
+            },
+            {
+               "li":"Action phase: Now everyone who didn't act in the melee phase can use normal actions"
+            }
+         ]
+      }
+   ]

@@ -1,0 +1,90 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inconsolata, sans-serif;
+}
+
+.outer_card {
+    width: 66mm;  
+    height: 92mm;
+    border: .1px dotted gray;
+}
+.card {
+    /*text-align: center;*/
+    width: 65mm;
+    margin-left: .5mm;
+    margin-right: .5mm;
+    height: 91mm;
+    border: .5mm solid gray;
+    border-radius: 5px;
+    flex-grow: 1;
+
+}
+.quote {
+    font-family: Pacifico, sans-serif;   
+    margin-left: 2mm;
+    margin-bottom: 0;
+}
+.content {
+    margin: 1mm;
+}
+#container {
+    width: 215mm;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:6mm;
+    margin-top:3mm;
+}
+
+h1 {
+   font-size:28px; 
+}
+h1, h2, h3, h4, h5 {
+    padding-left: 1mm;
+    font-family: Exo, sans-serif;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: #CFCFCF;
+}
+h4 {
+    background: #DFDFDF;
+}
+ul {
+    list-style: none;
+    font-family: Exo, sans-serif;
+}
+li {
+    text-indent: 3mm;
+    padding-left: 1mm;
+    font-size: 12px;
+}
+
+.notrowone {
+    border-left: 1px solid black;
+    padding-left: 1mm;
+    padding-right: 1mm;
+    
+}
+td.notrowone {
+    border-bottom: 1px solid  #DFDFDF;
+}
+table { 
+    border-spacing: 0;
+    margin-left:auto; 
+    margin-right:auto;
+}
+li:first-letter {
+    margin-left: -3mm;
+}
+.rowone {
+    width: 3mm;
+    padding-left: 1mm;
+    
+}
+td.rowone {
+    background: #DFDFDF;
+    padding-right: 1mm;
+}

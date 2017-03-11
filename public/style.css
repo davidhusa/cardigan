@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fbox {
+  display: flex;
+}
+
+.left {
+/*  width: 15px;
+  transform: rotate(90deg);
+  transform-origin: left top 0;*/
+  flex-grow: 1;
+}
+
+.right {
+  flex-grow: 2;
+  text-decoration: underline;
+  
+
+}
+
+body {
+  background-color: black;
+}
+#wrapper {
+  min-width: 400px;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}

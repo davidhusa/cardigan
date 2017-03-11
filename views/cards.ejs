@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MOPs cardprint</title>
+    <meta name="description" content="MOps Card Display Template">
+    <meta name="author" content="dph">
+    <link rel="stylesheet" href="card_style.css?v=1.0">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Inconsolata|Pacifico|Exo">
+</head>
+<body>
+<div id="container">
+  <% for(var c=0;c < (cards || []).length;c++) { %>
+    <div class="outer_card">  
+        <div class="card">
+           <h4><%= cards[c].type %></h4>
+           <h1><%= cards[c].name %></h1>
+           <div class="content">
+             <%= cards[c].description %>
+           </div>
+           <table>
+              <th class="rowone"></th>
+              <% for(var r=0;r < (cards[c].rollHeader || []).length;r++) { %> <!--rollHeader-->
+                <th class="notrowone"><%= cards[c].rollHeader[r].h %></th>
+              <% } %>
+              <% for(var r=0;r < (cards[c].rolls || []).length;r++) { %> <!--rolls-->
+                <tr>
+                  <td class="rowone"><%= cards[c].rolls[r].no %></td>
+                  <% for(var o=0;o < (cards[c].rolls[r].outcome || []).length;o++) { %> <!--outcome-->
+                    <td class="notrowone"><%= cards[c].rolls[r].outcome[o].o %></td>
+                  <% } %>
+                </tr>
+              <% } %>
+           </table>
+           <ul>
+           <% for(var l=0;l < (cards[c].list || []).length;l++) { %> <!--list-->
+               <li><%= cards[c].list[l].li %></li> 
+           <% } %>
+           </ul>
+           <div class="quote">
+              <%= cards[c].quote %>
+           </div>
+        </div>
+    </div>
+  <% } %>
+</div>
+</body>
+</html>

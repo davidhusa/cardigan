@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>dph</title>
+    <meta content='Express' name='description'>
+    <meta name='keywords'>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>hi</h1>
+      <div class='fbox'>
+        <div class='right_container'>
+          <% for(var i = 0;i < comments.length; i++) { %>
+            <div class='right'><%= comments[i].name %></div>
+          <% } %>
+        </div>
+        <div class='left_container'>
+          <% for(var i = 0;i < comments.length; i++) { %>
+            <div class='left'><%= comments[i].comment %></div>
+          <% } %>
+        </div>
+      </div>
+      <form action="/comments" method="POST">
+        <input type="text" placeholder="Name" name="name">
+        <input type="text" placeholder="Type comment here" name="comment">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
